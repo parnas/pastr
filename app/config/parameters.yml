@@ -1,0 +1,5 @@
+imports:
+    - { resource: parameters.defaults.yml }
+    - { resource: parameters.php }
+
+parameters:
