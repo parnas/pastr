@@ -1,0 +1,12 @@
+services:
+  app.guzzle:
+    class: GuzzleHttp\Client
+    public: false
+
+  app.flickr:
+    class: AppBundle\Provider\FlickrProvider
+    public: true
+    arguments:
+      client: @app.guzzle
+      key: %flickr_key%
+      secret: %flickr_secret%

@@ -1,0 +1,49 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Pastr</title>
+    <link rel="stylesheet" href="/css/foundation.css"/>
+    <link rel="stylesheet" href="/css/foundation-datepicker.css"/>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/index.css"/>
+    <script src="/js/vendor/modernizr.js"></script>
+</head>
+<body>
+<div class="row start">
+    <div class="row">
+        <div class="small-12 column text-center">
+            <h2>Get <span data-dropdown="service" class="input">Flickr</span> images
+                from <span class="input" id="from">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                till <span class="input" id="till">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>.
+                <br/>
+                My username is
+                <input type="text" class="input" id="id"/>.
+                <a class="button fancy" id="proceed">Proceed<span class="spinner">...</span></a>
+            </h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="small-12 column text-center" id="errors">
+        </div>
+    </div>
+    <div class="row">
+        <div class="small-12 column text-center" id="success">
+        </div>
+    </div>
+</div>
+
+
+<ul id="service" class="f-dropdown" data-dropdown-content>
+    <li><h2 class="input not-allowed">Instagram</h2></li>
+    <li><h2 class="input not-allowed">Facebook</h2></li>
+</ul>
+
+<script src="/js/vendor/jquery.js"></script>
+<script src="/js/foundation.min.js"></script>
+<script src="/js/moment.js"></script>
+<script src="/js/foundation-datepicker.js"></script>
+<script src="/js/index.js"></script>
+</body>
+</html>

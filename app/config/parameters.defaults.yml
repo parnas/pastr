@@ -1,0 +1,19 @@
+parameters:
+  database_driver: pdo_mysql
+  database_host: 127.0.0.1
+  database_port: null
+  database_name: pastr
+  database_user: root
+  database_password: null
+
+  mailer_transport: smtp
+  mailer_host: 127.0.0.1
+  mailer_user: null
+  mailer_password: null
+  locale: en
+  secret: e2277cca14f15f006b7079a6272e66b21b277d9d
+  database_path: null
+
+
+  flickr_key: ba24c64a10dfd88a5412b5e167121e78
+  flickr_secret: 36b7c2a55a160035
